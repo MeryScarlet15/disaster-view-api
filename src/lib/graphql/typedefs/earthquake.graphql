@@ -1,0 +1,12 @@
+type Earthquake {
+  id: ID!, 
+  place_id: ID!, 
+  magnitude: String!,
+  latitude: String,
+  tsunami: Boolean,
+  unix_event_time: Int,
+  event_time: String,
+  created_at: String,
+  updated_at: String,
+  deleted_at: String
+}
