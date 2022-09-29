@@ -3,6 +3,7 @@ type Earthquake {
   place_id: ID!, 
   magnitude: String!,
   latitude: String,
+  longitude: String,
   tsunami: Boolean,
   unix_event_time: Int,
   event_time: String,
