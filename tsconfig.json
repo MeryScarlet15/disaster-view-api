@@ -1,30 +1,22 @@
 {
   "compilerOptions": {
-    "types": [
-      "node",
-    ],
-    "target": "es6",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
+    "module": "commonjs",
     "esModuleInterop": true,
-    "module": "CommonJS",
+    "target": "es6",
     "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "build",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "incremental": true
+    "strict": false,
   },
-  "exclude": [
-    "node_modules"
+  "lib": [
+    "es6"
   ],
   "include": [
-    "**/*.ts",
+    "**/*",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
   ]
 }
