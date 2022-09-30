@@ -1,0 +1,1 @@
+{"version":3,"file":"earthquakes.resolver.js","sourceRoot":"","sources":["../../../../../src/lib/graphql/resolvers/earthquakes.resolver.ts"],"names":[],"mappings":";;;;;AAAA,4GAAiF;AAEjF,MAAM,kBAAkB,GAAG,IAAI,6BAAiB,EAAE,CAAA;AAElD,MAAM,iBAAiB,GAAG;IACxB,WAAW,EAAE,CAAC,CAAM,EAAE,IAAS,EAAE,EAAE;QAClC,OAAQ,kBAAkB,CAAC,cAAc,EAAE,CAAA;IAC5C,CAAC;CACF,CAAA;AAED,kBAAe,iBAAiB,CAAA"}
