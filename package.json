@@ -5,10 +5,10 @@
   "main": "index.ts",
   "scripts": {
     "start": "node build/index.js",
-    "build": "tsc -p .",
+    "build": "sh build.sh",
     "dev": "env-cmd -f ./src/config/env/dev.env nodemon index.ts",
     "cli": "ts-node src/cli/index.ts",
-    "deploy": "sh deploy.sh"
+    "deploy": "git push heroku main"
   },
   "repository": {
     "type": "git",
